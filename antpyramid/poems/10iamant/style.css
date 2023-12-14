@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "AppleMyungjo, Nanum Myeongjo";
+    font-family: "adobe-myungjo-std", sans-serif;
 }
 
 
@@ -30,7 +30,9 @@ header {
   .eg{
     font-family: "century";
   }
-
+h2 {
+  font-family: "adobe-myungjo-std", sans-serif;
+}
 p {
     text-align: left; /* Set text alignment to left */
     margin-left: 20px; /* Optional: Add some left margin for better readability */

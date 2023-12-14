@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nanum Myeongjo";
+    font-family: "adobe-myungjo-std", sans-serif;
 }
 
 
@@ -137,30 +137,29 @@ p {
 }
 
  
-  .button-holder
-  {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Align buttons horizontally */
-    padding-bottom: 20px; /* Adjust as needed for spacing */
-  }
- 
-  .slider-change {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px; /* Adjust the width and height to make the buttons smaller */
-    height: 30px;
-    border-radius: 50%; /* Make it circular */
-    background-color: rgba(121, 119, 117);
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 14px; /* Reduce the font size for the letters */
-    color: white;
+.button-holder
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Align buttons horizontally */
+  padding-bottom: 20px; /* Adjust as needed for spacing */
 }
 
+.slider-change {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; /* Adjust the width and height to make the buttons smaller */
+  height: 30px;
+  border-radius: 50%; /* Make it circular */
+  background-color: rgba(121, 119, 117);
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px; /* Reduce the font size for the letters */
+  color: white;
+}
 .slider-change span {
     display: block;
     text-align: center;

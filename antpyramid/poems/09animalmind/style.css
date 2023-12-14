@@ -90,6 +90,13 @@ p {
   padding: 0 10px;
 }
 
+.half-line {
+  width: 40%; /* Adjust the width as needed */
+  margin-left: 10%; /* Reset margin */
+  border: none; /* Remove default border */
+  height: 1px; /* Set height to create a horizontal line */
+  background-color: black; /* Change color if necessary */
+}
 
 .three-column-layout {
   display: flex;

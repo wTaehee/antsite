@@ -121,7 +121,7 @@
     position: relative;
     overflow: hidden;
     top: 0;
-    padding: 100px;
+    padding: 90px;
     backdrop-filter: blur(8px); /* Apply blur effect */
     background-color: rgba(121, 119, 117, 0.5);
     border-radius: 20px; /* Add border-radius to the columns */
@@ -131,7 +131,7 @@
   
   .left-column::before,
   .right-column::before {
-    content: '';
+    /* content: ''; */
   position: absolute;
   top: 0;
   bottom: 0;

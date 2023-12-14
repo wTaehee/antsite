@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nanum Myeongjo", serif;
+    font-family: "adobe-myungjo-std", sans-serif;
 }
 
 
@@ -31,7 +31,12 @@ header {
 
 p { 
     text-align: left; /* Set text alignment to left */
+    
     margin-left: 20px; /* Optional: Add some left margin for better readability */
+}
+
+em {
+  letter-spacing: .4px; 
 }
 
 .eg{
@@ -91,7 +96,7 @@ p {
 }
 
 .slider-image p {
-  text-align: left !important; /* Override other styles */
+  text-align: justify !important; /* Override other styles */
   margin-left: 20%; /* Add some left margin for better readability */
 }
 
@@ -236,6 +241,7 @@ img {
 div {
     text-align: center;
 }
+
 a {
     color: inherit;
     text-decoration: none;

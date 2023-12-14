@@ -173,17 +173,14 @@
   }
 
   img {
-    width: 180px;
-    height: 100px;
+    width: 400px;
+    height: auto;
     margin-bottom: 30px;
-    
+    margin: auto;
 }
-  .work-en {
-     max-width: 100%; /* Ensure image doesn't exceed its container */
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Center the image horizontally */
-  width: 100%; /* Fill the container width */
-  max-height: calc(100vh - 700px); /* Limit the height to avoid overlapping */
-  object-fit: contain; /* Maintain aspect ratio */
-  }
+
+.work-en {
+  /* Your existing properties */
+  display: grid;
+  place-items: center;
+}
