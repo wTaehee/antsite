@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   body {
@@ -13,7 +14,7 @@
     gap: var(--gap);
     width: 100%;
     min-height: 100vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "AppleMyungjo, Nanum Myeongjo";
     font-size: 1rem;
     line-height: 1.5;
     color: var(--color-text);
@@ -37,6 +38,23 @@
     color: white;
     z-index: 13;
   }
+
+  .eg {
+    font-family: "century";
+  }
+
+  h1 {
+    font-family: "Nanum Myeongjo";
+  }
+
+  h2 {
+    font-family: "Nanum Myeongjo";
+  }
+
+  p {
+    font-family: "Nanum Myeongjo";
+    line-height: 2;
+  }
   
   .topnav {
     display: flex;
@@ -58,6 +76,7 @@
   }
   
   .icon {
+    
     cursor: pointer;
   }
   
@@ -79,6 +98,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    font-family: "이슬아손글씨";
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -128,8 +148,7 @@
     margin: 10px; /* Create some space between columns and container */
     color:white;
   }
-  
-  .left-column::before,
+    .left-column::before,
   .right-column::before {
     content: '';
   position: absolute;
@@ -147,19 +166,28 @@
     text-align: center;
   }
   h2 {
-    font-family: "이슬아손글씨";
     font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: center;
   }
   
   p {
-    font-family: "Rix슬기로운감귤생활_Pro Light";
+    
     line-height: 1.6;
   }
 
   .pquote {
-    font-family: "이슬아손글씨";
+    
     font-size: 1.15rem;
   
+  }
+
+  .tab {
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  .tabkr {
+    display: inline-block;
+    margin-left: -1em;
   }
