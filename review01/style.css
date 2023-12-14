@@ -168,6 +168,11 @@
   
   }
 
+  .tab {
+    display: inline-block;
+    margin-left: 1em;
+  }
+
   .eg {
     font-family: "century";
   }
