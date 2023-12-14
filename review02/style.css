@@ -13,8 +13,8 @@
     gap: var(--gap);
     width: 100%;
     min-height: 100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
+    font-family: "adobe-myungjo-std", sans-serif;
     line-height: 1.5;
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -143,26 +143,52 @@
   filter: blur(10px); /* Blur effect */
   }
 
+ 
+  h3 {
+    font-family: "adobe-myungjo-std", sans-serif;
+    text-align: center;
+  }
+  
   h1 {
+    font-family: "adobe-myungjo-std", sans-serif;
     text-align: center;
   }
   h2 {
-    font-family: "이슬아손글씨";
+    font-family: "adobe-myungjo-std", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: center;
   }
-  h3 {
-    text-align: center;
-  }
   
   p {
-    font-family: "Rix슬기로운감귤생활_Pro Light";
+    font-family: "adobe-myungjo-std", sans-serif;
     line-height: 1.6;
   }
 
   .pquote {
-    font-family: "이슬아손글씨";
-    font-size: 1.15rem;
+    font-family: "adobe-myungjo-std", sans-serif;
+    margin: 20px;
+    font-size: .9rem;
+    line-height: 1.6;
   
+  }
+
+  .eg {
+    font-family: "century";
+  }
+
+  img {
+    width: 180px;
+    height: 100px;
+    margin-bottom: 30px;
+    
+}
+  .work-en {
+     max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  width: 100%; /* Fill the container width */
+  max-height: calc(100vh - 700px); /* Limit the height to avoid overlapping */
+  object-fit: contain; /* Maintain aspect ratio */
   }

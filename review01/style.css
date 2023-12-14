@@ -179,11 +179,11 @@
     
 }
   .work-en {
-    max-width: 100%; /* Ensure image doesn't exceed its container */
+     max-width: 100%; /* Ensure image doesn't exceed its container */
   height: auto;
   display: block;
   margin: 0 auto; /* Center the image horizontally */
-  width: 75%; /* Adjust the width as needed */
-  max-height: 75vh; /* Limit the height to a percentage of the viewport height */
+  width: 100%; /* Fill the container width */
+  max-height: calc(100vh - 700px); /* Limit the height to avoid overlapping */
   object-fit: contain; /* Maintain aspect ratio */
   }
