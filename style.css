@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "adobe-myungjo-std", sans-serif;
 }
 
 :root {
@@ -14,17 +15,6 @@
   --scroll-start: 0;
   --scroll-end: calc(-100% - var(--gap));
 }
-
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: papayawhip;
-    --color-bg: navy;
-    --color-bg-accent: #2626a0;
-  }
-}
-
 
 
 body {

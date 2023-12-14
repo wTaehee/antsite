@@ -2,9 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nanum Myeongjo";
+    font-family: "이슬아손글씨";
 }
-
+:root {
+  --color-text: black;
+  --color-bg: black;
+  --color-bg-accent: white;
+  --size: clamp(10rem, 1rem + 40vmin, 30rem);
+  --gap: calc(var(--size) / 14);
+  --duration: 60s;
+  --scroll-start: 0;
+  --scroll-end: calc(-100% - var(--gap));
+}
 #pyramid {
     position: absolute;
     width: 100%;
@@ -14,8 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 body {
@@ -27,13 +34,14 @@ body {
 header {
     display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 49px;
+    left: 45px;
+    right: 100px;
     justify-content: space-between;
+    font-family: "이슬아손글씨";
     align-items: center;
     padding: 10px 20px;
-    color: white;
+    color: black;
     z-index: 13;
   }
   
@@ -58,6 +66,7 @@ header {
   
   .icon {
     cursor: pointer;
+    
   }
   
   .dropdown-menu {
@@ -67,7 +76,8 @@ header {
   
   .dropbtn {
     background-color: transparent;
-    color: white;
+    font-family: "이슬아손글씨";
+    color: black;
     padding: 8px 50px;
     border: none;
     cursor: pointer;
@@ -76,6 +86,7 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
+    
     background-color: #f9f9f9;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -85,6 +96,8 @@ header {
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
+    font-family: "이슬아손글씨";
+    font-size: 1em;
     text-decoration: none;
     display: block;
   }
@@ -106,8 +119,8 @@ img {
 div {
     text-align: center;
 }
-a {
-    color: inherit;
+a {font-family: "이슬아손글씨";
+    color: black;
     text-decoration: none;
    }
 
