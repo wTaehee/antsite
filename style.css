@@ -37,7 +37,7 @@ body {
   gap: var(--gap);
   width: 100%;
   min-height: 100vh;
-  font-family: system-ui, sans-serif;
+  font-family: "Nanum Myeongjo";
   font-size: 1rem;
   line-height: 1.5;
   color: var(--color-text);
@@ -46,28 +46,28 @@ body {
 
 h1 {
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2; /* Set a higher z-index to keep it above the background */
-  font-family: "Adobe Myungjo Std", serif;
-  font-size: 2rem;
+  font-family: "Nanum Myeongjo";
+  font-size: 1.25rem;
   text-shadow:15px 15px 15px rgba(0, 0, 0, 0.904);
-  -webkit-text-stroke: rgba(0, 0, 0, 0.711) .6px;
+  /* -webkit-text-stroke: rgba(0, 0, 0) .2px; */
   color: var(--color-text); /* Use your desired text color */
 }
 
 h2 {
   position: absolute;
-  bottom: 25px;
+  bottom: 35px;
   left: 50%;
   text-align: center;
   transform: translateX(-50%);
   z-index: 1;
   font-family: "century";
-  font-size: 2rem;
+  font-size: 1.25rem;
   text-shadow:15px 15px 15px rgba(0, 0, 0, 0.904);
-  -webkit-text-stroke: rgba(0, 0, 0, 0.711).1px;
+  /* -webkit-text-stroke: rgba(0, 0, 0).1px; */
 }
 
 .menu-button {

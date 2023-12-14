@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: "Nanum Myeongjo", serif;
 }
 
 
@@ -29,9 +29,13 @@ header {
 
 
 
-p {
+p { 
     text-align: left; /* Set text alignment to left */
     margin-left: 20px; /* Optional: Add some left margin for better readability */
+}
+
+.eg{
+  font-family: "century";
 }
 
 .tab {

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: "Nanum Myeongjo";
 }
 
 
@@ -27,7 +27,9 @@ header {
     z-index: 13;
   }
 
-
+  .eg{
+    font-family: "century";
+  }
 
 p {
     text-align: left; /* Set text alignment to left */
