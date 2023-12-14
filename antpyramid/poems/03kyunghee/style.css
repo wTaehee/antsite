@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: "Nanum Myeongjo";
 }
 
 
@@ -27,7 +27,9 @@ header {
     z-index: 13;
   }
 
-
+  .eg{
+    font-family: "century";
+  }
 
 p {
     text-align: left; /* Set text alignment to left */
@@ -146,12 +148,22 @@ p {
   }
  
   .slider-change {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* Adjust the width and height to make the buttons smaller */
+    height: 30px;
+    border-radius: 50%; /* Make it circular */
     background-color: rgba(121, 119, 117);
-    margin-right: 10px; /* Add margin to create space */
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px; /* Reduce the font size for the letters */
+    color: white;
+}
+
+.slider-change span {
+    display: block;
+    text-align: center;
 }
 
   .topnav {
