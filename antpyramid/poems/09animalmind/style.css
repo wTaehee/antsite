@@ -76,13 +76,14 @@ p {
   display: flex;
   width: 200%;
   transition: transform 0.5s ease;
+  margin: 15px auto;
 }
 
 .slider-image {
-  width: 50%;
+  width: 40%;
   flex: 0 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 10px auto 0;
+  padding: 0 10px;
 }
 
 
@@ -92,13 +93,14 @@ p {
 }
 
 .column {
-  width: 50%; /* Adjust the width of the columns as needed */
-  padding: 0; /* Add padding between columns */
+  flex: 1;
+  padding: 0 15px; /* Add padding between columns */
 }
 
 .column2 {
-  width: -100%; /* Adjust the width of the columns as needed */
-  padding: 0; /* Add padding between columns */
+  flex: 0 0 auto;
+  width: 10%; /* Adjust the width of the columns as needed */
+  padding: 0 7.5px; /* Add padding between columns */
 }
 
 /* .three-column-layout .column:nth-child(2) {
