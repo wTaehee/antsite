@@ -13,7 +13,7 @@
     gap: var(--gap);
     width: 100%;
     min-height: 100vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "adobe-myungjo-std", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: var(--color-text);
@@ -23,6 +23,7 @@
   .spacer {
     flex-grow: 1;
   }
+  
   
   header {
     display: flex;
@@ -144,12 +145,16 @@
   }
 
   h2 {
-    font-family: "이슬아손글씨";
+    font-family: "adobe-myungjo-std", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
   p {
-    font-family: "Rix슬기로운감귤생활_Pro Light";
+    font-family: "adobe-myungjo-std", sans-serif;
     line-height: 1.6;
+  }
+
+  .eg {
+    font-family: "century";
   }

@@ -127,6 +127,8 @@
     border-radius: 20px; /* Add border-radius to the columns */
     margin: 10px; /* Create some space between columns and container */
     color:white;
+    
+  
   }
   
   .left-column::before,
@@ -147,19 +149,41 @@
     text-align: center;
   }
   h2 {
-    font-family: "이슬아손글씨";
+    font-family: "adobe-myungjo-std", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: center;
   }
   
   p {
-    font-family: "Rix슬기로운감귤생활_Pro Light";
+    font-family: "adobe-myungjo-std", sans-serif;
     line-height: 1.6;
   }
 
   .pquote {
-    font-family: "이슬아손글씨";
-    font-size: 1.15rem;
+    font-family: "adobe-myungjo-std", sans-serif;
+    margin: 20px;
+    font-size: .9rem;
+    line-height: 1.6;
   
+  }
+
+  .eg {
+    font-family: "century";
+  }
+
+  img {
+    width: 180px;
+    height: 100px;
+    margin-bottom: 30px;
+    
+}
+  .work-en {
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  width: 75%; /* Adjust the width as needed */
+  max-height: 75vh; /* Limit the height to a percentage of the viewport height */
+  object-fit: contain; /* Maintain aspect ratio */
   }
